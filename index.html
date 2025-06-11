@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AnX Gaming Cloud</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background-color: #0a0a0a;
+      color: #fff;
+    }
+
+    header {
+      background: linear-gradient(90deg, #6f00ff, #00ffff);
+      padding: 25px;
+      text-align: center;
+      box-shadow: 0 0 20px #6f00ff;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.8em;
+      color: #fff;
+      text-shadow: 0 0 10px #00ffff;
+    }
+
+    header p {
+      font-size: 1em;
+      color: #ddd;
+    }
+
+    section {
+      padding: 25px 20px;
+    }
+
+    section h2 {
+      text-align: center;
+      color: #00ffff;
+      margin-bottom: 15px;
+      text-shadow: 0 0 8px #6f00ff;
+      font-size: 1.8em;
+    }
+
+    .slider {
+      display: flex;
+      overflow-x: auto;
+      gap: 20px;
+      scroll-snap-type: x mandatory;
+      padding-bottom: 10px;
+    }
+
+    .card {
+      flex: 0 0 auto;
+      scroll-snap-align: start;
+      background-color: #1b1b1b;
+      border: 1px solid #333;
+      border-radius: 15px;
+      padding: 20px;
+      min-width: 260px;
+      box-shadow: 0 0 15px rgba(0, 255, 255, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+      box-shadow: 0 0 20px rgba(0, 255, 255, 0.4);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #00ffaa;
+      font-size: 1.3em;
+    }
+
+    .card p {
+      font-size: 14px;
+      margin: 10px 0;
+      color: #bbb;
+    }
+
+    .card button {
+      background: linear-gradient(90deg, #00ffaa, #00ffff);
+      color: #000;
+      padding: 10px;
+      border: none;
+      border-radius: 7px;
+      width: 100%;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 0 0 10px #00ffaa;
+    }
+
+    .card button:hover {
+      background: #0ff;
+      box-shadow: 0 0 20px #00ffff;
+      color: #111;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      font-size: 13px;
+      color: #888;
+      border-top: 1px solid #222;
+    }
+
+    .slider::-webkit-scrollbar {
+      height: 8px;
+    }
+
+    .slider::-webkit-scrollbar-thumb {
+      background: #00ffff;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+      .card {
+        min-width: 220px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>AHMAD STORE V2</h1>
+  <p>⚡ Hosting | VPS | RDP⚡</p>
+</header>
+
+<section>
+  <h2>🔥 VPS PREMIUM AMD</h2>
+  <div class="slider">
+    <div class="card">
+  	<img src="https://cdn.discordapp.com/attachments/1295928702638489652/1382387676929458267/vps.png?ex=684af859&is=6849a6d9&hm=99f3939859a62cb5f1e5fdec77cfd8b3e5cfc63a0f5c7a9155323119ef8734b2&" alt="VPS Icon" style="width:64px; margin:auto; display:block;">
+      <h3>VPS #1 - Rp 55.000</h3>
+      <p>2GB RAM • 2 AMD CPUs • 60GB SSD • SG</p>
+      <a href="https://wa.me/6287854851480?text=Pesan VPS #1"><button>Pesan Sekarang</button></a>
+    </div>
+    <div class="card">
+    <img src="https://cdn.discordapp.com/attachments/1295928702638489652/1382387676929458267/vps.png?ex=684af859&is=6849a6d9&hm=99f3939859a62cb5f1e5fdec77cfd8b3e5cfc63a0f5c7a9155323119ef8734b2&" alt="VPS Icon" style="width:64px; margin:auto; display:block;">
+      <h3>VPS #2 - Rp 80.000</h3>
+      <p>4GB RAM • 2 AMD CPUs • 80GB SSD • SG</p>
+      <a href="https://wa.me/6287854851480?text=Pesan VPS #2"><button>Pesan Sekarang</button></a>
+    </div>
+    <div class="card">
+      <img src="https://cdn.discordapp.com/attachments/1295928702638489652/1382387676929458267/vps.png?ex=684af859&is=6849a6d9&hm=99f3939859a62cb5f1e5fdec77cfd8b3e5cfc63a0f5c7a9155323119ef8734b2&" alt="VPS Icon" style="width:64px; margin:auto; display:block;">
+      <h3>VPS #3 - Rp 95.000</h3>
+      <p>8GB RAM • 2 AMD CPUs • 100GB SSD • SG</p>
+      <a href="https://wa.me/6287854851480?text=Pesan VPS #2"><button>Pesan Sekarang</button></a>
+    </div>
+    <div class="card">
+      <img src="https://cdn.discordapp.com/attachments/1295928702638489652/1382387676929458267/vps.png?ex=684af859&is=6849a6d9&hm=99f3939859a62cb5f1e5fdec77cfd8b3e5cfc63a0f5c7a9155323119ef8734b2&" alt="VPS Icon" style="width:64px; margin:auto; display:block;">
+      <h3>VPS #4 - Rp 105.000</h3>
+      <p>8GB RAM • 4 AMD CPUs • 160GB SSD • SG</p>
+      <a href="https://wa.me/6287854851480?text=Pesan VPS #2"><button>Pesan Sekarang</button></a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>🖥️ RDP DigitalOcean</h2>
+  <div class="slider">
+    <div class="card">
+    	<img src="https://cdn.discordapp.com/attachments/1295928702638489652/1382388302237270138/remote-desktop.png?ex=684af8ee&is=6849a76e&hm=36ce05ff08933c285d0c5b222294c33f5e68a8561548e361c6b70038d86de4c5&" alt="RDP Icon" style="width:64px; margin:auto; display:block;">
+      <h3>RDP #1 - Rp20.000</h3>
+      <p>2 GB RAM • 1 CPU • Windows</p>
+      <a href="https://wa.me/6287854851480?text=Pesan RDP #1"><button>Pesan Sekarang</button></a>
+    </div>
+    <div class="card">
+    	<img src="https://cdn.discordapp.com/attachments/1295928702638489652/1382388302237270138/remote-desktop.png?ex=684af8ee&is=6849a76e&hm=36ce05ff08933c285d0c5b222294c33f5e68a8561548e361c6b70038d86de4c5&" alt="RDP Icon" style="width:64px; margin:auto; display:block;">
+      <h3>RDP #2 - Rp30,000</h3>
+      <p>2 GB RAM • 2 CPU • Windows</p>
+      <a href="https://wa.me/6287854851480?text=Pesan RDP #2"><button>Pesan Sekarang</button></a>
+    </div>
+    <div class="card">
+    	<img src="https://cdn.discordapp.com/attachments/1295928702638489652/1382388302237270138/remote-desktop.png?ex=684af8ee&is=6849a76e&hm=36ce05ff08933c285d0c5b222294c33f5e68a8561548e361c6b70038d86de4c5&" alt="RDP Icon" style="width:64px; margin:auto; display:block;">
+      <h3>RDP #3 - Rp40,000</h3>
+      <p>4 GB RAM • 2 CPU • Windows</p>
+      <a href="https://wa.me/6287854851480?text=Pesan RDP #2"><button>Pesan Sekarang</button></a>
+    </div>
+    <div class="card">
+    	<img src="https://cdn.discordapp.com/attachments/1295928702638489652/1382388302237270138/remote-desktop.png?ex=684af8ee&is=6849a76e&hm=36ce05ff08933c285d0c5b222294c33f5e68a8561548e361c6b70038d86de4c5&" alt="RDP Icon" style="width:64px; margin:auto; display:block;">
+      <h3>RDP #4 - Rp50,000</h3>
+      <p>8 GB RAM • 4 CPU • Windows</p>
+      <a href="https://wa.me/6287854851480?text=Pesan RDP #2"><button>Pesan Sekarang</button></a>
+    </div>
+    <div class="card">
+    	<img src="https://cdn.discordapp.com/attachments/1295928702638489652/1382388302237270138/remote-desktop.png?ex=684af8ee&is=6849a76e&hm=36ce05ff08933c285d0c5b222294c33f5e68a8561548e361c6b70038d86de4c5&" alt="RDP Icon" style="width:64px; margin:auto; display:block;">
+      <h3>RDP #5 - Rp60,000</h3>
+      <p>16 GB RAM • 4 CPU • Windows</p>
+      <a href="https://wa.me/6287854851480?text=Pesan RDP #2"><button>Pesan Sekarang</button></a>
+    </div>
+    <div class="card">
+    	<img src="https://cdn.discordapp.com/attachments/1295928702638489652/1382388302237270138/remote-desktop.png?ex=684af8ee&is=6849a76e&hm=36ce05ff08933c285d0c5b222294c33f5e68a8561548e361c6b70038d86de4c5&" alt="RDP Icon" style="width:64px; margin:auto; display:block;">
+      <h3>RDP #5 - Rp70,000</h3>
+      <p>16 GB RAM • 8 CPU • Windows</p>
+      <a href="https://wa.me/6287854851480?text=Pesan RDP #2"><button>Pesan Sekarang</button></a>
+    </div>
+    <div class="card">
+    	<img src="https://cdn.discordapp.com/attachments/1295928702638489652/1382388302237270138/remote-desktop.png?ex=684af8ee&is=6849a76e&hm=36ce05ff08933c285d0c5b222294c33f5e68a8561548e361c6b70038d86de4c5&" alt="RDP Icon" style="width:64px; margin:auto; display:block;">
+      <h3>RDP #6 - Rp105,000</h3>
+      <p>32 GB RAM • 8 CPU • Windows</p>
+      <a href="https://wa.me/6287854851480?text=Pesan RDP #2"><button>Pesan Sekarang</button></a>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>🎮 SA-MP RYZEN</h2>
+  <div class="slider">
+    <div class="card">
+    <img src="https://cdn.discordapp.com/attachments/1295928702638489652/1382389227802853556/cloud-server.png?ex=684af9cb&is=6849a84b&hm=0877cc126915beda103a0d1d9d15923d82473a0ecab432ac44a1f6e04dbaf8f9&" alt="Hosting Icon" style="width:64px; margin:auto; display:block;">
+      <h3>HOST #1 - Rp 60.000</h3>
+      <p>(50 SLOT Players) • Support .so .dll • Free Port Voice • 30 Hari</p>
+      <a href="https://wa.me/6287854851480?text=Pesan Hosting #1"><button>Pesan Sekarang</button></a>
+    </div>
+    <div class="card">
+    	<img src="https://cdn.discordapp.com/attachments/1295928702638489652/1382389227802853556/cloud-server.png?ex=684af9cb&is=6849a84b&hm=0877cc126915beda103a0d1d9d15923d82473a0ecab432ac44a1f6e04dbaf8f9&" alt="Hosting Icon" style="width:64px; margin:auto; display:block;">
+      <h3>HOST #2 - Rp 80.000</h3>
+      <p>(70 SLOT Players) • Support .so .dll • Free Port Voice • 30 Hari</p>
+      <a href="https://wa.me/6287854851480?text=Pesan Hosting #2"><button>Pesan Sekarang</button></a>
+    </div>
+    <div class="card">
+    	<img src="https://cdn.discordapp.com/attachments/1295928702638489652/1382389227802853556/cloud-server.png?ex=684af9cb&is=6849a84b&hm=0877cc126915beda103a0d1d9d15923d82473a0ecab432ac44a1f6e04dbaf8f9&" alt="Hosting Icon" style="width:64px; margin:auto; display:block;">
+      <h3>HOST #3 - Rp 115.000</h3>
+      <p>(100 SLOT Players) • Support .so .dll • Free Port Voice • 30 Hari</p>
+      <a href="https://wa.me/6287854851480?text=Pesan Hosting #2"><button>Pesan Sekarang</button></a>
+    </div>
+    <div class="card">
+    	<img src="https://cdn.discordapp.com/attachments/1295928702638489652/1382389227802853556/cloud-server.png?ex=684af9cb&is=6849a84b&hm=0877cc126915beda103a0d1d9d15923d82473a0ecab432ac44a1f6e04dbaf8f9&" alt="Hosting Icon" style="width:64px; margin:auto; display:block;">
+      <h3>HOST #3 - Rp 140.000</h3>
+      <p>(120 SLOT Players) • Support .so .dll • Free Port Voice • 30 Hari</p>
+      <a href="https://wa.me/6287854851480?text=Pesan Hosting #2"><button>Pesan Sekarang</button></a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2025 Ahmad Store V2 | Powered by Gamer Hustle 💻</p>
+</footer>
+
+</body>
+</html>
